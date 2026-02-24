@@ -21,7 +21,7 @@ classDiagram
 
     class Especialista{
         <<interface>>
-        +reparar()
+        +void reparar()
     }
 
     class Mecanico
