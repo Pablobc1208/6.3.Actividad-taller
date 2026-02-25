@@ -45,4 +45,7 @@ classDiagram
     Taller ..> Reparaciones
     Especialista <|.. Mecanico
 
+    class Factura
+
+    Taller "1" *-- "1..*" Factura
     ```
