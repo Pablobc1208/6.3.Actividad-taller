@@ -26,10 +26,11 @@ classDiagram
 
     class Mecanico
 
-    Especialista <|.. Mecanico
 
     class Taller
 
     Taller ..> Mecanico
     Taller ..> Reparaciones
+    Especialista <|.. Mecanico
+
     ```
